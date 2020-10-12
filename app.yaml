@@ -1,4 +1,3 @@
-application: helloworld-292311
 runtime: python27
 api_version: 1
 threadsafe: true
