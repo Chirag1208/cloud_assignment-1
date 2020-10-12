@@ -28,7 +28,7 @@ day = day % 7
 space ='' 
 space = space.rjust(2, ' ') 
 
-print(month[mm], yy) 
+print("    ",month[mm], yy) 
 print('Su', 'Mo', 'Tu', 'We', 'Th', 'Fr', 'Sa') 
   
 if mm == 9 or mm == 4 or mm == 6 or mm == 11:  
