@@ -1,7 +1,4 @@
 
 import calendar
 
-yy = 2020 
-mm = 10 
-
-print(calendar.month(yy, mm))
+print(calendar.month(2020, 10))
