@@ -69,5 +69,4 @@ import calendar
 #            print("{:02d}".format(i-day), end =' ') 
 #            if (i + 1)% 7 == 0: 
 #                print()
-cal=calendar.HTMLCalendar(calendar.MONDAY)
-print(cal.formatmonth(2020,10))
+print(calendar.HTMLCalendar(calendar.MONDAY).formatmonth(2020,10))
